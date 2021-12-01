@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Allerta');
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+  background-image: url(../imgs/fondo.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+
+}
+
+#tittle{
+      margin: 0;
+      position: absolute;
+      width:900px;
+      top: 50%;
+      left: 50%;
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      font-family: 'Allerta', serif;
+      font-size: 100px;
+      text-align: center;
+      color: #000000;
+      letter-spacing: 20px;
+      text-decoration: underline 4px;
+      font-weight: lighter;
+}
+#comenzar{
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    bottom: 120px;
+    font-family: 'Allerta', serif;
+    font-size: 25px;
+    text-align: center;
+    color: #000000;
+    letter-spacing: 10px;
+    text-decoration: underline 4px 100px;
+}
+#comenzar:hover{
+    font-size: 35px;
+}
+.rectangle{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    height: 260px;
+    width: 1000px;
+    border: 7px solid #000000;
+    box-sizing: border-box;
+}
+.pie{
+  position: fixed;
+  bottom: 4px;
+  font-size: 25px;
+  left:5px;
+}
+.logo{
+  position: fixed;
+  width: 260px;
+  height: 190px;
+  left: 10px;
+  top:10px;
+}
+
+
+
+

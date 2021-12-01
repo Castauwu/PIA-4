@@ -1,0 +1,15 @@
+footer {
+    position: absolute;
+    bottom: 0;
+    font-weight: bold;
+    background-color: white;
+    height: 40px;
+    width: 1920px;
+    text-align: left;
+
+}
+footer .text{
+      position: absolute;
+      top: 10px;
+      left: 10px;
+}
